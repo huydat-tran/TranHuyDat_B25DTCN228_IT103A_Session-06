@@ -1,0 +1,48 @@
+header {
+  background-color: #fde68a;
+  text-transform: capitalize;
+  text-align: center;
+}
+* {
+  font-family: cursive;
+}
+body {
+  background-color: #fff7ed;
+}
+
+.deptrai {
+  color: #92400e;
+}
+.dangcap {
+  text-align: center;
+}
+.div {
+  background-color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  background-color: #78350f;
+  color: #ffffff;
+}
+
+.tieude {
+  background-color: #fed7aa;
+  text-align: center;
+}
+.list:hover {
+  color: yellow;
+  background-color: #78350f;
+}
+a {
+  text-decoration: none;
+  color: #78350f;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+  background-color: #78350f;
+}
+img {
+  width: 700;
+}
