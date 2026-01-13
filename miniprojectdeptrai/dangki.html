@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng kí đẹp trai</title>
+    <link rel="stylesheet" href="styledeptrai.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Danh sách dịch vụ</h1>
+      </div>
+      <nav class="nav">
+        <a href="./sanpham.html" class="nav_item">Trang chủ</a>
+        <a href="dichvu.html" class="nav_item">Dịch vụ</a>
+        <a href="dangki.html" class="nav_item">Đăng kí lịch khám</a>
+      </nav>
+    </header>
+    <div class="form">
+      <p>
+        Họ và tên <br /><input
+          class="item_input"
+          name="Name"
+          placeholder="Nhập họ tên"
+        />
+      </p>
+      <p>
+        Email <br />
+        <input
+          class="item_input"
+          type="email"
+          name="Email"
+          placeholder="deptrai@gmail.com"
+        />
+      </p>
+      <p>
+        Số điện thoại
+        <br />
+        <input type="tel" name="Telephone" class="item_input" />
+      </p>
+      <p>
+        Chọn dịch vụ
+        <br />
+        <select name="Service" class="item_select">
+          <option value="kham rang">Khám răng tổng quát</option>
+          <option value="cao rang">Lấy cao răng</option>
+          <option value="tay rang">Tẩy trắng răng</option>
+          <option value="nieng rang">Niềng răng</option>
+        </select>
+      </p>
+      <p>
+        Ngày khám <br />
+        <input class="date" type="date" name="Date" />
+      </p>
+      <p>
+        Ghi chú <br />
+        <textarea
+          class="textarea"
+          name="Note"
+          placeholder="Yêu cầu thêm"
+        ></textarea>
+      </p>
+    </div>
+  </body>
+</html>
